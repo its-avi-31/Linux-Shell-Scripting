@@ -1,0 +1,30 @@
+echo "Enter 5 sub marks: "
+read a
+read b
+read c
+read d
+read e
+sum=` expr $a +  $b + $c + $d + $e `
+echo "Sum of no = "
+echo $sum
+avg=`expr $sum / 5`
+echo "Average of No = "
+echo $avg
+if (( $avg >=90 ))
+then
+echo "S grade"
+elif (( $avg >= 80 && $avg << 90 ))
+then
+echo "A grade"
+elif (( $avg >=70 && $avg << 80 ))
+then
+echo "B grade"
+elif (( $avg >=60 && $avg << 70 ))
+then
+echo "C grade"
+elif (( $avg >=50 && $avg << 60 ))
+then
+echo " D grade"
+else
+echo "Fail"
+fi

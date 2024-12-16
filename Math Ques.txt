@@ -1,0 +1,53 @@
+<1> #Variable Declaration & Initialization and Printing the output(# Symbol - For single line comment, << - For Multiline Comments) -->
+
+a=4
+echo $a 
+b=2
+echo $a $b
+  
+
+<2> #Printing the string -->
+
+echo "Hello Laddu"
+
+<3> #Sum of 2 Var -->
+
+a=4
+echo $a 
+b=2
+echo $a $b
+sum=`expr $a + $b `
+echo $sum
+
+<4> #Subtraction of 2 Var -->
+
+a=10 b=2
+diff=`expr $a - $b `
+echo $diff
+
+<5> #Multiplication of 2 var -->
+
+a=10 b=2
+mul=`expr $a \* $b `
+echo $mul
+
+<6> #Division of 2 Var -->
+
+a=10 b=2
+div=`expr $a / $b `
+echo $div
+
+<7> Average of 5 no -->
+
+echo "Enter 5 no: "
+read a       #read - for tafking input from user
+read b
+read c
+read d
+read e
+sum=` expr $a +  $b + $c + $d + $e `
+echo "Sum of no = "
+echo $sum
+avg=`expr $sum / 5`
+echo "Average of No = "
+echo $avg
