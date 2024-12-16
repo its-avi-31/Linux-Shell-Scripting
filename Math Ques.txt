@@ -40,7 +40,7 @@ echo $div
 <7> Average of 5 no -->
 
 echo "Enter 5 no: "
-read a       #read - for tafking input from user
+read a       #read - for taking input from user
 read b
 read c
 read d
