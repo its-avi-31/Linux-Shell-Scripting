@@ -1,0 +1,44 @@
+# Switch Case Statements --
+
+echo "Enter a no(1-7): "
+read num
+case $num in
+1)
+echo "Sunday"
+;;
+2)
+echo "Monday"
+;;
+3)
+echo "Tuesday";;
+4)
+echo "Wednesday"
+;;
+5)echo "Thrusday"
+;;
+6)echo "Friday"
+;;
+7)
+echo "Saturday"
+;;
+*)
+echo "Invalid No"
+esac
+
+# Traffic light using Switch -->
+
+echo "Enter Light color(red,green,blue): "
+read col
+case $col in
+"red")
+echo "Stop"
+;;
+"yellow")
+echo "Wait"
+;;
+"green")
+echo "Go"
+;;
+*)
+echo "Invalid Option"
+esac
