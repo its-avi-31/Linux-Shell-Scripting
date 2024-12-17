@@ -1,4 +1,6 @@
-#<1> Variable Declaration & Initialization and Printing the output(# Symbol - For single line comment, << - For Multiline Comments) -->
+<<Comment
+<1> Variable Declaration & Initialization and Printing the output(# Symbol - For single line comment, << - For Multiline Comments) -->
+Comment
 
 a=4
 echo $a 
