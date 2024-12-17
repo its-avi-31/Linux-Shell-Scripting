@@ -1,4 +1,4 @@
-<1> #Variable Declaration & Initialization and Printing the output(# Symbol - For single line comment, << - For Multiline Comments) -->
+#<1> Variable Declaration & Initialization and Printing the output(# Symbol - For single line comment, << - For Multiline Comments) -->
 
 a=4
 echo $a 
@@ -6,11 +6,11 @@ b=2
 echo $a $b
   
 
-<2> #Printing the string -->
+#<2> Printing the string -->
 
 echo "Hello Laddu"
 
-<3> #Sum of 2 Var -->
+#<3> Sum of 2 Var -->
 
 a=4
 echo $a 
@@ -19,19 +19,19 @@ echo $a $b
 sum=`expr $a + $b `
 echo $sum
 
-<4> #Subtraction of 2 Var -->
+#<4> Subtraction of 2 Var -->
 
 a=10 b=2
 diff=`expr $a - $b `
 echo $diff
 
-<5> #Multiplication of 2 var -->
+#<5> Multiplication of 2 var -->
 
 a=10 b=2
 mul=`expr $a \* $b `
 echo $mul
 
-<6> #Division of 2 Var -->
+#<6> Division of 2 Var -->
 
 a=10 b=2
 div=`expr $a / $b `
