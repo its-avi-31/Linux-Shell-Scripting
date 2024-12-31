@@ -1,0 +1,14 @@
+<<comment
+Parameters in Shell Scripting -->
+$0 = Script name
+$1-9 = Arguments order(separated by space)
+ 
+comment
+ 
+ 
+ 
+ 
+echo "you are running the script $0"
+echo "Bye "
+echo "Hello $1 "
+echo "Hello $2"

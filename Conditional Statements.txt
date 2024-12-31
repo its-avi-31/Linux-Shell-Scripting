@@ -1,0 +1,14 @@
+#Conditional Statements ----:
+
+# 1) If-else in Shell Scripting -->
+
+echo "Enter 1st no: "
+read a
+echo "Enter 2nd no: "
+read b
+if [[ $a > $b ]]          or [[ $a > b ]]
+then
+echo "1st no is greater"
+else
+echo "2nd is greater !!!"
+fi

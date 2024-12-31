@@ -1,0 +1,11 @@
+# Factorial of n numbers -->
+
+fact=1
+echo "Enter no: "
+read n
+while [ $n -gt 0 ]
+do
+fact=`expr $fact \* $n `
+let n--
+done
+echo $fact

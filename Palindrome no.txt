@@ -1,0 +1,20 @@
+# Palindrome no -->
+ 
+echo "Enter a no: "
+read n
+n1=$n
+rev=0
+while [ $n -gt 0 ]
+do
+a=`expr $n % 10`
+echo -ne $a
+rev=`expr $rev \* 10 + $a `
+n=`expr $n / 10`
+done
+echo ''     # For printing output in new line
+if (( $rev == $n1 ))
+then
+echo "Palindrome"
+else
+echo "Not !!!"
+fi

@@ -1,0 +1,17 @@
+# Lucas Series upto n terms -->
+
+echo "Enter range: "
+read n
+i=1
+j=1
+echo $i
+echo $j
+k=`expr $i + $j`
+while [[ $k -lt $n ]]
+do
+echo $k
+i=$j
+j=$k
+k=`expr $i + $j`
+done
+ 

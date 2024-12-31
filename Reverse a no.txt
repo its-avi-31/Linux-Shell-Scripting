@@ -1,0 +1,9 @@
+# Program to reverse a no --> 
+ 
+a=123
+while [ $a -gt 0 ]
+do
+n=`expr $a % 10`
+echo -ne $n      #ne : For printing output in same line
+a=`expr $a / 10`
+done
