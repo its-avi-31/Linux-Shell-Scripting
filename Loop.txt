@@ -1,0 +1,39 @@
+# For loop in shell scripting -->
+ 
+sum=0
+echo "Numbers: "
+for(( i=0; i<=10; i++ ))
+do
+echo $i
+sum=`expr $sum + $i`
+done
+echo "Sum of all no: " $sum
+
+# While loop in shell scripting -->
+ 
+i=1
+echo "No: "
+while [ $i -lt 10 ]    # -lt = Less than
+do
+echo  $i
+let i++     # let ++i / i=`expr $i + 1`
+done
+
+#2nd Method-
+ 
+i=0
+echo "No: "
+while [ $i -lt 10 ]
+do
+echo $i "Hello Nobita"
+i=`expr $i + 1 `
+done
+
+# Until loop in Shell Scripting -->
+ 
+i=1
+until [ $i -eq 10 ]
+do
+echo "Hello world"
+let ++i
+done
